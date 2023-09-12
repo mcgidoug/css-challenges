@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(188, 211, 197);
+}
+
+.navbar {
+  color: white;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.navbar > div {
+  border: solid rgb(100, 95, 95) 1px;
+  border-radius: 1rem;
+  background-color: rgb(219, 189, 177);
+  padding: 1rem;
+  box-shadow: 10px 5px 5px rgb(145, 129, 129);
+}
+
+.navbar > div:hover {
+  background-color: rgb(221, 218, 178);
+  cursor: pointer;
+}
