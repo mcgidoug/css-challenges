@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(134, 117, 117);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.card {
+  font-family: "Lato", sans-serif;
+  background-color: rgb(197, 211, 195);
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border: solid white 4px;
+  padding: 5rem;
+  border-radius: 10px;
+}
